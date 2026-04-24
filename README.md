@@ -5,7 +5,7 @@ Detta projekt är en laboration i kursen TypeScript där jag arbetat med Angular
 ## Se sidan live
 
 Webbplatsen finns publicerad här:  
-[KLICKA HÄR FÖR ATT SE SIDAN](MIN_URL_HÄR)
+[KLICKA HÄR FÖR ATT SE SIDAN](https://typescript-labb3.onrender.com/home)
 
 ---
 
