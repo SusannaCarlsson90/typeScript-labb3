@@ -8,36 +8,41 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './fun.css',
 })
 export class Fun {
-  heroimage = "/images/IMG_0596.JPG";
+  heroimage = "/images/miniraknare.jpg";
 
-    //Properties
-    num1: number = 0;
-    num2: number = 0;
-    result: string | number = 0;
+    //Properties för tempereatur
+    ceVal: number = 0;
+    fhVal: number = 0;
+    resTemp: string ="";
+
+    //Properties för längd
+meVal: number = 0;
+ftVal: number = 0;
+resLength: string = "";
 
     //Methods
 //Meter till fot
-    convertToFeet(): void {
-      const calculation = this.num1 * 3.28084;
-      this.result = `${this.num1} meter är ${calculation.toFixed(2)} fot`;
+    cMToFt(): void {
+      const calculation = this.meVal * 3.28084;
+      this.resLength = `${this.meVal} meter är ${calculation.toFixed(2)} fot`;
     }
 
     //Fot till meter
-   convertToMeters() : void {
-      const calculation = this.num1 / 3.28084;
-      this.result = `${this.num1} fot är ${calculation.toFixed(2)} meter`
+   cFtToM() : void {
+      const calculation = this.ftVal / 3.28084;
+      this.resLength = `${this.ftVal} fot är ${calculation.toFixed(2)} meter`
     }
 
     //Celsius till fahrenheit
 
-    convertToFahrenheit(): void {
-      const calculation = (this.num1 * 9/5) + 32;
-      this.result = `${this.num1}°C är ${calculation.toFixed(1)}°F`;
+    cCtoFh(): void {
+      const calculation = (this.ceVal * 9/5) + 32;
+      this.resTemp = `${this.ceVal}°C är ${calculation.toFixed(1)}°F`;
     }
 //Fahrenheit till celsius
-   convertToCelsis(): void {
-      const calculation = (this.num1 -32) * 5/9;
-     this.result = `${this.num1}°F är ${calculation.toFixed(1)}°C`;
+   cfhToC(): void {
+      const calculation = (this.fhVal -32) * 5/9;
+     this.resTemp = `${this.fhVal}°F är ${calculation.toFixed(1)}°C`;
     }
    
 }
