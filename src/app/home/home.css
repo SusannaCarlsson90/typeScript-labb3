@@ -30,3 +30,16 @@
  
 }
 
+@media (max-width: 800px) {
+ .pictures, .pictures2 {
+flex-direction: column;
+gap: 15px;
+
+ }
+
+ .pictures img, .pictures2 img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+ }
+  }

@@ -7,4 +7,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './main-nav.html',
   styleUrl: './main-nav.css',
 })
-export class MainNav {}
+export class MainNav {
+  isMenuOpen = false; //menyn är stängd som standard
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+}
