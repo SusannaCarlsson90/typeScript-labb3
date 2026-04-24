@@ -1,59 +1,39 @@
-# MyAngularApp
+# Angular Projekt – Konverteringsverktyg & Webbplats
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
+Detta projekt är en laboration i kursen TypeScript där jag arbetat med Angular för första gången.
 
-## Development server
+## Se sidan live
 
-To start a local development server, run:
+Webbplatsen finns publicerad här:  
+[KLICKA HÄR FÖR ATT SE SIDAN](MIN_URL_HÄR)
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Syfte och Mål
 
-## Code scaffolding
+Projektets huvudmål var att skapa en responsiv webbapplikation med Angular och uppfylla följande krav:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Skapa en Angular webbplats
+2. Inkludera minst tre undersidor
+3. Skapa en undersida för konvertering av värden
+4. Minst en bild på någon av undersidorna
+5. Implementera en navigationsmeny med Angulars router-modul
+6. Lägg till minst en komponent på någon av undersidorna
+7. Använd CSS eller SCSS med god struktur
+8. Skapa grundläggande global styling i Angulars style.css-fil och specifika regler på komponentnivå.
+9. Versionshantera källkoden med Git
+10. Publicera den optimerade webbplatsen på en publikt tillgänglig webbplats.
 
-```bash
-ng generate component component-name
-```
+## Undersidor
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Webbplatsen innehåller tre huvudsakliga undersidor:
 
-```bash
-ng generate --help
-```
+1.  **Startsida:** Med bilder från förr och från nu
+2.  **Skoj (Konvertering):** Ett verktyg för att konvertera:
+    - **Längd:** Meter till Fot och Fot till Meter.
+    - **Temperatur:** Celsius till Fahrenheit och Fahrenheit till Celsius.
+3.  **Om:** En beskrivning av arbetsprocessen och slutsatser.
 
-## Building
+## Vad jag lärt mig
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Jag har lärt mig mycket kring vad Angular innebär. Hur mycket mer strukturerat ens arbete blir. Hur mycket mindre kod som behöver skrivas och hur mycket enklare allt blir med komponenter. Har även lärt mig hur man publicerar ett Angular projekt till Render.
