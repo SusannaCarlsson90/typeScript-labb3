@@ -36,4 +36,4 @@ Webbplatsen innehåller tre huvudsakliga undersidor:
 
 ## Vad jag lärt mig
 
-Jag har lärt mig mycket kring vad Angular innebär. Hur mycket mer strukturerat ens arbete blir. Hur mycket mindre kod som behöver skrivas och hur mycket enklare allt blir med komponenter. Har även lärt mig hur man publicerar ett Angular projekt till Render.
+Jag har lärt mig mycket kring vad Angular innebär. Hur mycket mer strukturerat ens arbete blir. Hur mycket mindre kod som behöver skrivas och hur mycket enklare allt blir med komponenter. Har även lärt mig hur man publicerar ett Angular projekt till Render. Har dock mycket kvar att lära och ser fram emot att fortsätta min utveckling!
