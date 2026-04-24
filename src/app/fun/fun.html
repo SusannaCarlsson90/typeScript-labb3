@@ -4,36 +4,18 @@
 <img [src]= "heroimage" alt ="Vet inte">
 </p>
 
-<p><strong>
 
-</strong>Namn:</p> {{firstname}} {{lastname}}
-
-<button (click) = "changeName()">Ändra namn</button>
-
-<h3>Medlemmar</h3>
-
-<ul>
-  @for(member of members; track $index)
-  {
-    <li>{{member}}</li>
-
-  }
-</ul>
 
 <div>
-  <label for="num1">Nummer 1</label>
+  <label for="num1">Värde du vill konvertera</label>
   <input type="number" id="num1" [(ngModel)]="num1">
 </div>
-<div>
-  <label for="num2">Nummer 2</label>
-  <input type="number" id="num2" [(ngModel)]="num2">
-</div>
 
 <div>
-  <button (click)="add()">Addera</button>
-  <button (click)="subtract()">Subtrahera</button>
-  <button (click)="multiply()">Multiplicera</button>
-  <button (click)="divide()">Dividera</button>
+  <button (click)="convertToFeet()">Till fot</button>
+  <button (click)="convertToMeters()">Till meter</button>
+  <button (click)="convertToFahrenheit()">Till Fahrenheit</button>
+  <button (click)="convertToCelsis()">Till celsius</button>
 </div>
 
 <div>
