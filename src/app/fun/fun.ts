@@ -22,26 +22,33 @@ export class Fun {
   }
 
     //Properties
-    num1: number = 1;
-    num2: number = 2;
-    result: number = 3;
+    num1: number = 0;
+    num2: number = 0;
+    result: number = 0;
 
     //Methods
-
-    add(): void {
-      this.result = this.num1 + this.num2;
+//Meter till fot
+    convertToFeet(): void {
+      const calculation = this.num1 * 3.28084;
+      this.result = `${this.num1} meter är ${calculation.toFixed(2)} fot`;
     }
 
-    subtract() : void {
-      this.result = this.num1 - this.num2;
+    //Fot till meter
+   convertToMeters() : void {
+      const calculation = this.num1 / 3.28084;
+      this.result = `${this.num1} fot är ${calculation.toFixed(2)} meter`
     }
 
-    multiply(): void {
-      this.result = this.num1 * this.num2;
-    }
+    //Celsius till fahrenheit
 
-    divide(): void {
-      this.result = this.num1 / this.num2;
+    convertToFahrenheit(): void {
+      const calculation = (this.num1 * 9/5) + 32;
+      this.result = `${this.num1}°C är ${calculation.toFixed(1)}°F`;
+    }
+//Fahrenheit till celsius
+   convertToCelsis(): void {
+      const calculation = (this.num1 -32) * 5/9;
+     this.result = `${this.num1}°F är ${calculation.toFixed(1)}°C`;
     }
    
 }
