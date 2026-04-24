@@ -22,9 +22,20 @@
 
 <div>
   <label for="num1">Nummer 1</label>
-  <input type="number" id="num1">
+  <input type="number" id="num1" [(ngModel)]="num1">
 </div>
 <div>
   <label for="num2">Nummer 2</label>
-  <input type="number" id="num2">
+  <input type="number" id="num2" [(ngModel)]="num2">
+</div>
+
+<div>
+  <button (click)="add()">Addera</button>
+  <button (click)="subtract()">Subtrahera</button>
+  <button (click)="multiply()">Multiplicera</button>
+  <button (click)="divide()">Dividera</button>
+</div>
+
+<div>
+  <p>Resultat: {{ result }}</p>
 </div>

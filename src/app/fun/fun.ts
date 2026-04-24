@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-fun',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './fun.html',
   styleUrl: './fun.css',
 })
@@ -20,5 +21,28 @@ export class Fun {
     this.lastname = "Lundin";
   }
 
+    //Properties
+    num1: number = 1;
+    num2: number = 2;
+    result: number = 3;
+
+    //Methods
+
+    add(): void {
+      this.result = this.num1 + this.num2;
+    }
+
+    subtract() : void {
+      this.result = this.num1 - this.num2;
+    }
+
+    multiply(): void {
+      this.result = this.num1 * this.num2;
+    }
+
+    divide(): void {
+      this.result = this.num1 / this.num2;
+    }
+   
 }
 
